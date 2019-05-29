@@ -1,19 +1,19 @@
 {
     "name":"cftvdb",
     "slug":"cftvdb",
-    "version":"0.5.0",
+    "version":"0.6.0",
     "author":"Jordan Clark <jordanclark@gmail.com>",
     "keywords":[
         "tvdb",
-		"tv",
-		"imdb",
+        "tv",
+        "imdb",
         "movies",
         "api",
         "rest"
     ],
     "shortDescription":"API client for thetvdb.com",
     "type":"modules",
-    "location":"jordanclark/cftvdb#v0.5.0",
+    "location":"jordanclark/cftvdb#v0.6.0",
     "repository":{
         "URL":"https://github.com/jordanclark/cftvdb.git",
         "type":"GIT"
