@@ -1,0 +1,40 @@
+{
+    "name":"cftvdb",
+    "slug":"cftvdb",
+    "version":"0.5.0",
+    "author":"Jordan Clark <jordanclark@gmail.com>",
+    "keywords":[
+        "tvdb",
+		"tv",
+		"imdb",
+        "movies",
+        "api",
+        "rest"
+    ],
+    "shortDescription":"API client for thetvdb.com",
+    "type":"modules",
+    "location":"jordanclark/cftvdb#v0.5.0",
+    "repository":{
+        "URL":"https://github.com/jordanclark/cftvdb.git",
+        "type":"GIT"
+    },
+    "homepage":"https://github.com/jordanclark/cftvdb",
+    "bugs":"https://github.com/jordanclark/cftvdb/issues",
+    "license":[
+        {
+            "type":"Apache-2.0",
+            "URL":"https://github.com/jordanclark/cftvdb/blob/master/LICENSE"
+        }
+    ],
+    "private":false,
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/"
+    ],
+    "scripts":{
+        "postVersion":"package set location='jordanclark/cftvdb#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    }
+}
