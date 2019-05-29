@@ -9,9 +9,13 @@
 # cftvdb
 TVDb (thetvdb.com) ColdFusion Rest API Client
 
-# Changes
-2019-05-29 Initial release
+## To Install
+Run the following from commandbox:
+`box install cftvdb`
 
-# API documentation
+## Changes
+2019-05-29 Open source release
+
+## API documentation
 https://api.thetvdb.com/swagger
 
