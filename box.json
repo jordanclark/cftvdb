@@ -1,7 +1,7 @@
 {
     "name":"cftvdb",
     "slug":"cftvdb",
-    "version":"0.6.1",
+    "version":"0.6.2",
     "author":"Jordan Clark <jordanclark@gmail.com>",
     "keywords":[
         "tvdb",
@@ -13,7 +13,7 @@
     ],
     "shortDescription":"API client for thetvdb.com",
     "type":"modules",
-    "location":"jordanclark/cftvdb#v0.6.1",
+    "location":"jordanclark/cftvdb#v0.6.2",
     "repository":{
         "URL":"https://github.com/jordanclark/cftvdb.git",
         "type":"GIT"
